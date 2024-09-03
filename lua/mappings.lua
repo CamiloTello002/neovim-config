@@ -40,3 +40,6 @@ map('n', '<A-k>', ':m .-2<CR>==', opts)
 
 -- find function usage for a function or export
 map('n', '<leader>fr', ':lua vim.lsp.buf.references()<CR>', opts)
+
+-- toggle line wrapping
+map('n', '<leader>tw', ':set wrap!<CR>', opts)
