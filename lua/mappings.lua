@@ -47,3 +47,5 @@ map('n', '<leader>tw', ':set wrap!<CR>', opts)
 -- close split window
 map('n', '<leader>cs', ':close<CR>', opts)
 
+-- open definition in a vertical split
+map('n', '<leader>dv', ':vsplit | lua vim.lsp.buf.definition()<CR>', opts)
