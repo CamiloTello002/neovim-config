@@ -43,3 +43,7 @@ map('n', '<leader>fr', ':lua vim.lsp.buf.references()<CR>', opts)
 
 -- toggle line wrapping
 map('n', '<leader>tw', ':set wrap!<CR>', opts)
+
+-- close split window
+map('n', '<leader>cs', ':close<CR>', opts)
+
